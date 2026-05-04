@@ -1,0 +1,36 @@
+BauBo Note — Android APK 项目
+==============================
+
+这是 BauBo Note 的 Android 原生 App 源码（WebView 套壳）。
+打开网址：https://baubonote.up.railway.app
+
+【用 Android Studio 打包 APK】
+
+1. 下载安装 Android Studio
+   https://developer.android.com/studio
+
+2. 打开 Android Studio → "Open" → 选择本文件夹（baubo-apk）
+
+3. 等待 Gradle 同步完成（首次需要几分钟下载依赖）
+
+4. 菜单：Build → Generate Signed Bundle / APK → APK
+
+5. 选 "Create new keystore"，填写签名信息（随便填，自用即可）
+
+6. 点 Finish，等待打包完成
+
+7. APK 文件在：app/release/app-release.apk
+
+8. 把 APK 传到手机安装即可
+
+【直接安装到手机（调试版）】
+
+1. 手机开启"开发者模式"和"USB调试"
+2. 用数据线连接电脑
+3. Android Studio 点绿色运行按钮
+4. 选择你的手机，点 OK
+5. App 直接安装到手机
+
+【注意】
+- 手机需要开启"允许安装未知来源应用"
+- 设置 → 安全 → 未知来源 → 开启
